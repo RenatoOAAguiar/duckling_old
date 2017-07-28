@@ -270,36 +270,54 @@
 
   ;; Involving periods  ; look for grain-after-shift
 
+  "daqui um segundo"
+  "daqui 1 segundo"
   "em um segundo"
   (datetime 2013 2 12 4 30 1)
 
+  "daqui um minuto"
+  "daqui 1 minuto"
   "em um minuto"
   "em 1 min"
   (datetime 2013 2 12 4 31 0)
 
+  "daqui 2 minutos"
+  "daqui dois minutos"
   "em 2 minutos"
   "em dois minutos"
   (datetime 2013 2 12 4 32 0)
 
+  "daqui 60 minutos"
+  "daqui sessenta minutos"
   "em 60 minutos"
   (datetime 2013 2 12 5 30 0)
 
+  "daqui uma hora"
+  "daqui 1 hora"
   "em uma hora"
   (datetime 2013 2 12 5 30)
 
+  "faz duas horas"
   "fazem duas horas"
   (datetime 2013 2 12 2 30)
 
+  "daqui 24 horas"
+  "daqui vinte e quatro horas"
   "em 24 horas"
   "em vinte e quatro horas"
   (datetime 2013 2 13 4 30)
 
+  "daqui um dia"
+  "daqui 1 dia"
   "em um dia"
   (datetime 2013 2 13 4)
 
+  "daqui 7 dias"
+  "daqui sete dias"
   "em 7 dias"
   (datetime 2013 2 19 4)
 
+  "daqui uma semana"
   "em uma semana"
   (datetime 2013 2 19)
 
@@ -307,12 +325,15 @@
   "faz três semanas"
   (datetime 2013 1 22)
 
+  "daqui dois meses"
   "em dois meses"
   (datetime 2013 4 12)
 
   "faz tres meses"
   (datetime 2012 11 12)
 
+  "daqui um ano"
+  "daqui 1 ano"
   "em um ano"
   "em 1 ano"
   (datetime 2014 2)
@@ -322,10 +343,13 @@
 
   ; Seasons
 
+  "neste verão"
+  "neste verao"
   "este verão"
   "este verao"
   (datetime-interval [2013 6 21] [2013 9 24])
 
+  "neste inverno"
   "este inverno"
   (datetime-interval [2012 12 21] [2013 3 21])
 
